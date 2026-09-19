@@ -53,7 +53,7 @@ Everything is sorted by **actionability** based on Tiago Forte's PARA system:
 - **Plus**: Time logs (`Journal/`), unwritten sparks (`Thoughts/`), life milestones (`Goals/`), and contacts (`People/`).
 
 ### 2. 🔗 Plain-Text Knowledge Graph
-Every single note connects to related concepts using simple `[[wikilinks]]`. In Obsidian's **Graph View**, David forms a clean, beautiful galaxy centered around `INDEX.md`, with zero broken or detached links.
+Every single note connects to related concepts using simple `wikilinks`. In Obsidian's **Graph View**, David forms a clean, beautiful galaxy centered around `INDEX.md`, with zero broken or detached links.
 
 ### 3. 🤖 Autonomous Agent Memory Engine
 David comes pre-configured with agent control files:
