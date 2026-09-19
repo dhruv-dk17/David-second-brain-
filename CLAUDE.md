@@ -1,3 +1,9 @@
+---
+tags:
+  - Protocol
+  - System
+last updated: 2026-09-19
+---
 # CLAUDE.md — Operating Instructions for Claude Code & Cowork Mode
 
 > **Vault Name**: David (AI Second Brain)  

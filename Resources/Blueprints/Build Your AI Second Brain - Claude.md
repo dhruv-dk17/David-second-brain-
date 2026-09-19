@@ -1,7 +1,7 @@
 ---
 tags:
   - Resource
-source: "d:\second brain\Build Your AI Second Brain with Claude - Obsidian.pdf"
+source: "d:/second brain/Build Your AI Second Brain with Claude - Obsidian.pdf"
 type: Blueprint
 last updated: 2026-09-19
 ---

@@ -1,3 +1,9 @@
+---
+tags:
+  - Protocol
+  - System
+last updated: 2026-09-19
+---
 # AGENTS.md — Universal AI Agent Protocol
 
 > **System Name**: David (AI Second Brain)  

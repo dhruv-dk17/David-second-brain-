@@ -1,24 +1,80 @@
 {
   "collapse-filter": false,
-  "search": "-path:Archive -path:_Templates -path:_Attachments -file:base",
+  "search": "-path:Archive -path:_Templates -path:_Attachments -file:base -file:generate_ai_bundle -file:DAVID_AI_CORE -file:README -file:gitignore",
   "showTags": false,
   "showAttachments": false,
-  "hideUnresolved": false,
+  "hideUnresolved": true,
   "showOrphans": false,
   "collapse-color-groups": false,
   "colorGroups": [
     {
+      "query": "file:INDEX",
+      "color": {
+        "a": 1,
+        "rgb": 62975
+      }
+    },
+    {
+      "query": "file:\"David - AI Second Brain\"",
+      "color": {
+        "a": 1,
+        "rgb": 62975
+      }
+    },
+    {
+      "query": "tag:#Profile",
+      "color": {
+        "a": 1,
+        "rgb": 15381256
+      }
+    },
+    {
+      "query": "tag:#Flagship",
+      "color": {
+        "a": 1,
+        "rgb": 16096779
+      }
+    },
+    {
+      "query": "tag:#RealWorld",
+      "color": {
+        "a": 1,
+        "rgb": 440020
+      }
+    },
+    {
       "query": "tag:#Project",
       "color": {
         "a": 1,
-        "rgb": 16753920
+        "rgb": 16486972
+      }
+    },
+    {
+      "query": "tag:#Goal",
+      "color": {
+        "a": 1,
+        "rgb": 1096065
+      }
+    },
+    {
+      "query": "tag:#Thought",
+      "color": {
+        "a": 1,
+        "rgb": 16007006
       }
     },
     {
       "query": "tag:#Area",
       "color": {
         "a": 1,
-        "rgb": 3381759
+        "rgb": 3900150
+      }
+    },
+    {
+      "query": "tag:#Technique",
+      "color": {
+        "a": 1,
+        "rgb": 9133302
       }
     },
     {
@@ -29,58 +85,30 @@
       }
     },
     {
-      "query": "tag:#Technique",
-      "color": {
-        "a": 1,
-        "rgb": 10040319
-      }
-    },
-    {
-      "query": "tag:#Goal",
-      "color": {
-        "a": 1,
-        "rgb": 16724838
-      }
-    },
-    {
-      "query": "tag:#Thought",
-      "color": {
-        "a": 1,
-        "rgb": 16737945
-      }
-    },
-    {
-      "query": "tag:#People",
-      "color": {
-        "a": 1,
-        "rgb": 2142890
-      }
-    },
-    {
       "query": "tag:#Journal",
       "color": {
         "a": 1,
-        "rgb": 9807270
+        "rgb": 9741240
       }
     },
     {
-      "query": "file:INDEX",
+      "query": "tag:#Protocol",
       "color": {
         "a": 1,
-        "rgb": 16777215
+        "rgb": 7108233
       }
     }
   ],
   "collapse-display": false,
-  "showArrow": true,
+  "showArrow": false,
   "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1.1,
-  "lineSizeMultiplier": 0.9,
+  "nodeSizeMultiplier": 1.35,
+  "lineSizeMultiplier": 1.25,
   "collapse-forces": false,
-  "centerStrength": 0.6,
-  "repelStrength": 9,
-  "linkStrength": 1,
-  "linkDistance": 140,
-  "scale": 0.7903900162935211,
+  "centerStrength": 0.45,
+  "repelStrength": 16.0,
+  "linkStrength": 0.9,
+  "linkDistance": 210,
+  "scale": 1.0,
   "close": true
 }

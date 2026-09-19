@@ -1,3 +1,9 @@
+---
+tags:
+  - Protocol
+  - Guide
+last updated: 2026-09-19
+---
 # 🌐 How to Use "David" Anywhere (Web & Apps)
 
 You can use David across **every AI tool you use**, whether on desktop, web, or mobile. Here is the exact setup for each:

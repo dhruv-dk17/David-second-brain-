@@ -1,3 +1,9 @@
+---
+tags:
+  - Protocol
+  - System
+last updated: 2026-09-19
+---
 # GEMINI.md — Google Antigravity Configuration
 
 > **Agent Persona**: David — AI Second Brain for Dhruv  
