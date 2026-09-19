@@ -1,0 +1,9 @@
+# Obsidian local workspace state (window positions)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache/
+
+# Temporary files
+*.tmp
+.DS_Store
+Thumbs.db
