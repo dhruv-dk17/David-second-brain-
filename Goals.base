@@ -1,0 +1,26 @@
+filters:
+  and:
+    - file.inFolder("Goals")
+properties:
+  file.name:
+    displayName: Goal
+  note.horizon:
+    displayName: Horizon
+  note.status:
+    displayName: Status
+  note.target_date:
+    displayName: Target Date
+  note.last updated:
+    displayName: Last Updated
+views:
+  - type: table
+    name: All Goals
+    order:
+      - file.name
+      - horizon
+      - status
+      - target_date
+      - last updated
+    sort:
+      - property: target_date
+        direction: ASC

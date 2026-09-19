@@ -1,0 +1,28 @@
+filters:
+  and:
+    - file.inFolder("Journal")
+formulas:
+  Type: if(tags.contains("Daily"), "Daily", if(tags.contains("Weekly"), "Weekly", if(tags.contains("Meeting"), "Meeting", "Journal")))
+properties:
+  file.name:
+    displayName: Entry
+  note.date:
+    displayName: Date
+  note.energy_level:
+    displayName: Energy
+  note.last updated:
+    displayName: Last Updated
+views:
+  - type: table
+    name: All Entries
+    groupBy:
+      property: formula.Type
+      direction: ASC
+    order:
+      - file.name
+      - date
+      - formula.Type
+      - last updated
+    sort:
+      - property: date
+        direction: DESC

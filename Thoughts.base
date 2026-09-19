@@ -1,0 +1,23 @@
+filters:
+  and:
+    - file.inFolder("Thoughts")
+properties:
+  file.name:
+    displayName: Idea / Thought
+  note.status:
+    displayName: Status
+  note.date:
+    displayName: Captured Date
+  note.last updated:
+    displayName: Last Updated
+views:
+  - type: table
+    name: All Thoughts
+    order:
+      - file.name
+      - status
+      - date
+      - last updated
+    sort:
+      - property: date
+        direction: DESC

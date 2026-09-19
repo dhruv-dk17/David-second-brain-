@@ -1,0 +1,44 @@
+filters:
+  and:
+    - file.inFolder("Projects")
+properties:
+  file.name:
+    displayName: Project
+  note.status:
+    displayName: Status
+  note.priority:
+    displayName: Priority
+  note.codebase_path:
+    displayName: Codebase Path
+  note.last updated:
+    displayName: Last Updated
+  note.tags:
+    displayName: Tags
+views:
+  - type: table
+    name: All Projects
+    order:
+      - file.name
+      - status
+      - priority
+      - codebase_path
+      - last updated
+      - tags
+    sort:
+      - property: priority
+        direction: ASC
+    columnSize:
+      file.name: 300
+      codebase_path: 260
+  - type: table
+    name: Active
+    filters:
+      and:
+        - note.status == "Active"
+    order:
+      - file.name
+      - priority
+      - codebase_path
+      - last updated
+    columnSize:
+      file.name: 320
